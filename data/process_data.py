@@ -62,6 +62,9 @@ def load_data(messages_filepath, categories_filepath):
     
     # concatenate the original dataframe with the new `categories` dataframe
     df = pd.concat([df,categories],axis=1,sort=False)
+
+	    # remove all rows where related equals 2
+    df = df[df.related != 2]
     return df
 
 def clean_data(df):
