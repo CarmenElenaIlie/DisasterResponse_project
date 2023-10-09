@@ -47,6 +47,7 @@ Alternatevely, in unix system type: gunicorn app.run:app -b 0.0.0.0:3001 to run 
 
 ![image](https://github.com/CarmenElenaIlie/DisasterResponse_project/assets/144029233/47370b66-cc48-45e9-8ba4-9a7a26b9fa17)
 
+
 ![image](https://github.com/CarmenElenaIlie/DisasterResponse_project/assets/144029233/0f9b56b7-8f79-484e-aeaf-1027959314df)
 
 
