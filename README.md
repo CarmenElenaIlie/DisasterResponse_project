@@ -7,6 +7,27 @@ https://github.com/CarmenElenaIlie/DisasterResponse_project
 
 The motivation behind this machine learning project is to build a web application that classifies text messages received in the event of a disaster such as during storms or earthquakes. The web application can be used by emergency workers to classify messages, and this could be essential for effective allocation of resources. The output of the ML model is a classification of the message into several categories such as water, shelter, food and clothing. Such a classification would give the app user a better awareness on what kind of help/aid is needed in case of emergency.
 
+**File Description**
+
+        disaster_response_pipeline
+          |-- app
+                |-- templates
+                        |-- go.html
+                        |-- master.html
+                |-- run.py
+          |-- data
+                |-- disaster_message.csv
+                |-- disaster_categories.csv
+                |-- DisasterResponse.db
+                |-- process_data.py
+          |-- models
+                |-- classifier.pkl
+                |-- train_classifier.py
+          |-- Screenshots
+                |-- img1.jpg
+                |-- img2.jpg
+          |-- README
+
 Project Components
 
 This repository has 3 components:
