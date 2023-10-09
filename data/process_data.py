@@ -15,7 +15,20 @@ from sqlalchemy import create_engine
 
 
 def load_data(messages_filepath, categories_filepath):
-    
+    """Function to load messages and categories datasets
+
+    Parameters
+    ----------
+    messages_filepath : str
+        Path to messages csv file
+	categories_filepath: str
+        Path to categories csv file
+
+    Returns
+    -------
+    Pandas DataFrame
+        The dataframe is composed of the messages and categories datasets joined on id.
+    """
     # load messages dataset
     messages = pd.read_csv(messages_filepath)
    
