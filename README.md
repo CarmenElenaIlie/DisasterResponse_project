@@ -5,6 +5,8 @@ Repository for the course project Disaster Respose as part of the Nanodegree Dat
 
 https://github.com/CarmenElenaIlie/DisasterResponse_project
 
+The motivation behind this machine learning project is to build a web application that classifies text messages received in the event of a disaster such as during storms or earthquakes. The web application can be used by emergency workers to classify messages, and this could be essential for effective allocation of resources. The output of the ML model is a classification of the message into several categories such as water, shelter, food and clothing. Such a classification would give the app user a better awareness on what kind of help/aid is needed in case of emergency.
+
 Project Components
 
 This repository has 3 components:
